@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
 checkpoints/
-figures/
 *.pt
 *.npz
+# Keep figures/architecture.png tracked for README
+# Other generated figures are ignored
+figures/*.png
+!figures/architecture.png
